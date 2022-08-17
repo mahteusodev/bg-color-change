@@ -1,13 +1,45 @@
 body {
-    margin: 0;
+    margin-top: 40vh;
     padding: 0;
     text-align: center;
-    background-color: rgb(150, 25, 0);
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 58vh;
 }
 
 .container {
     display: inline-block;
     justify-content: center;
     align-items: center;
-    margin-top: 40vh;
+}
+
+h1, button{
+    font-family: 'Silkscreen', sans-serif;
+}
+
+footer {
+    margin-top: auto;
+}
+
+#creator {
+    font-family: 'Silkscreen', sans-serif;
+    text-decoration: none;
+}
+
+#btn {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 50px;
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+#btn:hover {
+    font-size: 1.8em;
+    transition: 0.3s;
 }
